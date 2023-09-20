@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="biodata.html">Bioadata</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div>
+            <h1 class="MainTitle">A Thing That You Love</h1>
+            <form class="MainForm" action="action.html" method="get">
+                <div class="form-group">
+                    <label for="Title">Title:</label>
+                    <input type="text" class="form-control" id="Title" name="Title" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <span>Media:</span><br>
+                    <input type="radio" class="form-check-input" id="Song" name="Type" value="Song">
+                    <label class="form-check-label" for="Song">Song</label><br>
+                    <input type="radio" class="form-check-input" id="Movie" name="Type" value="Movie">
+                    <label class="form-check-label" for="Movie">Movie</label><br>
+                    <input type="radio" class="form-check-input" id="Series" name="Type" value="Series">
+                    <label class="form-check-label" for="Series">Series</label><br>
+                </div>
+                <div class="form-group">
+                    <span>Reason:</span><br>
+                    <input type="checkbox" class="form-check-input" id="GoodMemories" name="Reason" value="GoodMem">
+                    <label class="form-check-label" for="GoodMemories">Good Memories</label><br>
+                    <input type="checkbox" class="form-check-input" id="Calming" name="Reason" value="GoodMem">
+                    <label class="form-check-label" for="Calming">Calming</label><br>
+                    <input type="checkbox" class="form-check-input" id="EmotionallyAttached" name="Reason" value="GoodMem">
+                    <label class="form-check-label" for="EmotionallyAttached">Emotionally Attached</label><br>
+                    <input type="checkbox" class="form-check-input" id="CantDescribe" name="Reason" value="GoodMem">
+                    <label class="form-check-label" for="CantDescribe">Can't describe</label><br>
+                    <input type="checkbox" class="form-check-input" id="IDEK" name="Reason" value="GoodMem">
+                    <label class="form-check-label" for="IDEK">UWAAAAAA I DON'T EVEN KNOW!!!!</label>
+                </div>
+                <!-- Add Submit Button -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
